@@ -1,0 +1,59 @@
+admin service port- 8085
+user service port-  8086
+eureka server port- 8761
+
+Database credentails
+username -admin
+password -admin123
+
+http://flightbookingfrontend.s3-website.ap-south-1.amazonaws.com
+
+
+http://fbfrontend.s3-website.ap-south-1.amazonaws.com
+
+
+
+
+
+
+
+
+
+
+
+****************************************************************
+ reservation ={
+    flightId:'',
+    email:'',
+    passengerName:'',
+    passengerGender:'',
+    meal:'',
+    age:'',
+    passengerPhone:'',
+    nameOnTheCard:'',
+    cardNumber:'',
+    expiryDate:'',
+    cvv:''
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+**********************************************************************************************
+ECLEMMA java code coverage - junit dependency STS
+
+Kill tomcat
+netstat -ano | findstr :8080
+taskkill /PID 10364 /F
+
+
+
+
